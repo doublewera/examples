@@ -61,6 +61,7 @@ class Wheel {
         wheel.setAttribute('class', 'wheel');
         wheel.setAttribute('id', 'w' + this.#num);
         wheel.style.left = (80 * this.#num) + 'px';
+        wheel.style.zIndex = (-1) ** this.#num;
         return wheel;
     }
 };
