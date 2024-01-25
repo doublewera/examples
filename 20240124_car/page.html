@@ -1,0 +1,16 @@
+<link rel="stylesheet" href="car.css" >
+<script src="car.js"> </script>
+<form action="/" method="post" name="car_param">
+    <label for="color_car">Цвет машины</label>
+    <input type="color" name="color1" id="color_car">
+    <label for="current_season">Время года</label>
+    <select name="season" id="current_season">
+        <option>Зима</option>
+        <!-- Если значение совпадает с отображением,
+        его можно не писать. Если оно должно отличаться,
+        нужно у option написать атрибут value -->
+        <option>Весна</option>
+        <option>Лето</option>
+        <option>Осень</option>
+    </select>
+</form>
