@@ -44,9 +44,9 @@ function prosto_tyk(тык) { // игнорируем событие
      console.log('Тык был');
      var chkb = document.createElement('input');  // <input>
      chkb.setAttribute('type', 'checkbox');       // <input type='checkbox'>
-     chkb.style.position = 'absolute';
-     chkb.style.left = тык.clientX;
-     chkb.style.top = тык.clientY;
+     //chkb.style.position = 'absolute';
+     chkb.style.left = тык.clientX + "px";
+     chkb.style.top = тык.clientY + "px";
      тык.currentTarget.appendChild(                            // <div><input type='checkbox'></div>
         chkb
      );

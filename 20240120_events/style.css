@@ -10,3 +10,6 @@
     height: 20vh;
     margin: auto;
 }
+input[type="checkbox"] {
+    position: absolute;
+}
