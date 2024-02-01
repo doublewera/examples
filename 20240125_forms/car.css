@@ -1,0 +1,26 @@
+div {
+    position: absolute;
+}
+.wheel {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border: 6px dotted white;
+    border-radius: 50%;
+    top: 100px;
+}
+.car {
+    height: 60px;
+    border-radius: 20px 40px 0px 0px;
+}
+#roof {
+    left: 100px;
+    width: 200px;
+}
+#bc {
+    top: 60px;
+    width: 400px;
+}
+input:invalid {
+    border: 2px dashed red;
+}
