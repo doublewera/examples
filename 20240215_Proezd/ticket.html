@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ticket.css">
+    <title>Transport Ticket</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>
+                <h2>Ваши<br />данные</h2>
+                <form>
+                    <label for="yob">Год рождения: </label>
+                    <input id="yob" type="number" placeholder="Год рождения" min="1800" max="2024" value="2024">
+                    <label for="tariff">Тариф: </label>
+                    <select id="tariff">
+                        <option value="60">час</option>
+                        <option value="300">неделя</option>
+                        <option value="1000">месяц</option>
+                        <option value="10000">год</option>
+                    </select>
+                </form>
+            </td>
+            <td><img src="ticket.png"></td>
+        </tr>
+    </table>
+</body>
+</html>
