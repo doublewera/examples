@@ -1,0 +1,19 @@
+img {
+    width: 50vw;
+}
+input {
+    width: 5em;
+}
+h2 {
+    color: blue;
+    text-shadow: 10px 10px rgb(225, 214, 214);/*, rgb(201, 237, 244) 3px inset; */
+    font-size: 3em;
+}
+form {
+    width: 20vw;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+* {
+    font-size: 40px;
+}
